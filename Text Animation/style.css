@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: gilroy;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+
+#parent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+#box {
+    /* background-color: rebeccapurple; */
+    padding: 2rem 2.5rem;
+    overflow: hidden;
+}
+
+#box h1 {
+    font-size: 12rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    text-transform: capitalize;
+    color: white;
+}
+
+#box h1 span{
+    display: inline-block;
+}
